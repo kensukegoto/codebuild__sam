@@ -32,6 +32,6 @@ Resources:
           Properties:
             Path: /hello
             Method: get
-Outputs:
-  HelloWorldApi:
-    Value: !Sub "https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod/hello/"
+# Outputs:
+#   HelloWorldApi:
+#     Value: !Sub "https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod/hello/"
